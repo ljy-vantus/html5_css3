@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d2d2d2;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    min-height: 80px;
+    padding: 10px 20px 0;
+}
+
+header a.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+header a.logo img {
+    width: 50%;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 0 5px;
+    margin: 0 10px;
+    width: 100px;
+}
+
+header ul li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ff4e00;
+    color: #ff4e00
+}
