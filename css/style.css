@@ -1,13 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #d2d2d2;
+    /* background-color: #d2d2d2; */
+}
+
+.container-full {
+    width: 100%;
+    background-color: #fff;
 }
 
 .container {
     max-width: 1150px;
     margin: 0 auto;
-    background-color: #fff;
+    /* background-color: #fff; */
     box-sizing: border-box;
 }
 
@@ -82,14 +87,20 @@ header ul li a:hover {
     float: left;
 }
 
-.v250 {
+.v250,
+.v350 {
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.v250 h2 {
+.v350 {
+    height: 350px;
+}
+
+.v250 h2,
+.v350 h2 {
     font-size: 1.85rem;
     font-weight: normal;
 }
@@ -116,4 +127,58 @@ header ul li a:hover {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+}
+
+.gray-back {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.icon-box {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.icon-box i {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #c9c9c9;
+    margin: auto;
+}
+
+footer {
+    padding: 20px 10px;
+    display: felx;
+    justify-content: space-between;
+}
+
+.footlogo {
+    padding-left: 10px;
+    padding-top: 15px
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer ul li a:hover {
+    color: orange;
 }
